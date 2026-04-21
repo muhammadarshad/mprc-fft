@@ -1,6 +1,6 @@
 # MPRC-FFT: A Signal-Adapted Spectral Transform on Z₂₅₆
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Tests: 10/10](https://img.shields.io/badge/tests-10%2F10%20passing-brightgreen.svg)](#verification)
 
@@ -240,7 +240,17 @@ on Z₂₅₆. Frozen 2026-04-21.
 
 ## License
 
-MIT License — see LICENSE file for details.
+**CC BY-NC 4.0** — Creative Commons Attribution-NonCommercial 4.0 International
+
+✅ **EDUCATIONAL & ACADEMIC USE ONLY**
+
+- ✅ Free for educational institutions, research, and non-profit use
+- ✅ Permitted: Teaching, learning, research, citations, academic papers
+- ❌ **NOT permitted for commercial use, sale, or for-profit products**
+
+For commercial use, please contact the author for a commercial license agreement.
+
+See [LICENSING.md](LICENSING.md) for complete terms and commercial inquiries.
 
 ## Author
 

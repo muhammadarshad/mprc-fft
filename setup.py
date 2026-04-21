@@ -32,7 +32,7 @@ setup(
         "Topic :: Scientific/Engineering",
         "Topic :: Scientific/Engineering :: Mathematics",
         "Topic :: Scientific/Engineering :: Physics",
-        "License :: OSI Approved :: MIT License",
+        "License :: Creative Commons :: CC BY-NC 4.0 (Non-Commercial, Educational Use Only)",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
