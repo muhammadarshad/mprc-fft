@@ -1,0 +1,240 @@
+{
+  "dataset": {
+    "samples": 1797,
+    "train": 1257,
+    "test": 540,
+    "shape": [
+      8,
+      8
+    ],
+    "classes": 10
+  },
+  "pipeline": {
+    "log_sigma": 0.8,
+    "z256_origin": 128,
+    "relations_per_image": 112,
+    "train_absmax": 12.261269680719202
+  },
+  "mprc": {
+    "train_seconds": 0.691026819000399,
+    "W2_cells": 120389,
+    "B1_cells": 20842,
+    "Sigma_cells": 23269,
+    "relation_observations": 140784,
+    "best_mode": "w2_b_fallback",
+    "modes": {
+      "w2_only": {
+        "accuracy_all": 0.6018518518518519,
+        "accuracy_covered": 0.6673511293634496,
+        "coverage": 0.9018518518518519,
+        "abstentions": 53,
+        "predict_seconds": 0.05463451099967642,
+        "mean_exact_hits": 21.15,
+        "mean_b_hits": 0.0,
+        "mean_sigma_hits": 0.0,
+        "mean_silent": 90.85
+      },
+      "b_only": {
+        "accuracy_all": 0.6018518518518519,
+        "accuracy_covered": 0.6190476190476191,
+        "coverage": 0.9722222222222222,
+        "abstentions": 15,
+        "predict_seconds": 0.137385199000164,
+        "mean_exact_hits": 0.0,
+        "mean_b_hits": 74.9037037037037,
+        "mean_sigma_hits": 0.0,
+        "mean_silent": 37.096296296296295
+      },
+      "sigma_only": {
+        "accuracy_all": 0.5703703703703704,
+        "accuracy_covered": 0.5992217898832685,
+        "coverage": 0.9518518518518518,
+        "abstentions": 26,
+        "predict_seconds": 0.14529472799949872,
+        "mean_exact_hits": 0.0,
+        "mean_b_hits": 0.0,
+        "mean_sigma_hits": 69.63333333333334,
+        "mean_silent": 42.36666666666667
+      },
+      "w2_b_fallback": {
+        "accuracy_all": 0.6425925925925926,
+        "accuracy_covered": 0.6559546313799622,
+        "coverage": 0.9796296296296296,
+        "abstentions": 11,
+        "predict_seconds": 0.15176022499963437,
+        "mean_exact_hits": 21.15,
+        "mean_b_hits": 58.35740740740741,
+        "mean_sigma_hits": 0.0,
+        "mean_silent": 32.492592592592594
+      },
+      "w2_sigma_b_fallback": {
+        "accuracy_all": 0.6277777777777778,
+        "accuracy_covered": 0.6544401544401545,
+        "coverage": 0.9592592592592593,
+        "abstentions": 22,
+        "predict_seconds": 0.19825581000077364,
+        "mean_exact_hits": 21.15,
+        "mean_b_hits": 23.01851851851852,
+        "mean_sigma_hits": 54.446296296296296,
+        "mean_silent": 13.385185185185184
+      }
+    }
+  },
+  "gd": {
+    "float_log": {
+      "accuracy": 0.9666666666666667,
+      "train_seconds": 0.02009958800044842,
+      "predict_seconds": 0.0008487819995934842
+    },
+    "z256_numeric": {
+      "accuracy": 0.9648148148148148,
+      "train_seconds": 0.017381799999384384,
+      "predict_seconds": 0.0005676670007233042
+    }
+  },
+  "best_mprc_confusion_abstain_col10": [
+    [
+      45,
+      0,
+      0,
+      0,
+      0,
+      1,
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      34,
+      3,
+      0,
+      0,
+      4,
+      12,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      33,
+      7,
+      0,
+      1,
+      5,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      2,
+      1,
+      31,
+      0,
+      7,
+      8,
+      1,
+      0,
+      0,
+      4
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      42,
+      1,
+      1,
+      5,
+      0,
+      0,
+      3
+    ],
+    [
+      3,
+      3,
+      0,
+      0,
+      1,
+      33,
+      7,
+      1,
+      0,
+      5,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      53,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      2,
+      1,
+      2,
+      47,
+      0,
+      0,
+      0
+    ],
+    [
+      9,
+      13,
+      2,
+      5,
+      0,
+      4,
+      10,
+      1,
+      6,
+      2,
+      0
+    ],
+    [
+      9,
+      1,
+      1,
+      4,
+      5,
+      0,
+      4,
+      6,
+      0,
+      23,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
+}
