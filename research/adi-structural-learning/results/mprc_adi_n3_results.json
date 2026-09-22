@@ -1,0 +1,569 @@
+{
+  "domain_hi": 255,
+  "adi3_equations": {
+    "Lambda": "a1+a2+a3",
+    "delta1": "a1-a2",
+    "delta2": "delta1+3",
+    "a1": "(Lambda+2*delta1+3)/3",
+    "a2": "(Lambda-delta1+3)/3",
+    "a3": "(Lambda-delta1-6)/3",
+    "O": "((Lambda+2d+3)(Lambda-d+3)(Lambda-d-6))/27"
+  },
+  "exhaustive": {
+    "triples_tested": 31878,
+    "distinct_volumes": 28717,
+    "volumes_with_multiple_branches": 2441,
+    "max_branches": 6,
+    "multiplicity_histogram": {
+      "1": 26276,
+      "2": 1904,
+      "3": 393,
+      "4": 112,
+      "5": 25,
+      "6": 7
+    }
+  },
+  "O_19800": [
+    {
+      "triple": [
+        225,
+        11,
+        8
+      ],
+      "ADI": [
+        244,
+        214
+      ],
+      "volume": 19800
+    },
+    {
+      "triple": [
+        110,
+        15,
+        12
+      ],
+      "ADI": [
+        137,
+        95
+      ],
+      "volume": 19800
+    },
+    {
+      "triple": [
+        36,
+        25,
+        22
+      ],
+      "ADI": [
+        83,
+        11
+      ],
+      "volume": 19800
+    }
+  ],
+  "benchmark": {
+    "classes": [
+      840,
+      2160,
+      2520,
+      3080,
+      3240,
+      3780,
+      4320,
+      5400,
+      6160,
+      6480,
+      7020,
+      7560,
+      8640,
+      9180,
+      9720,
+      11340,
+      11880,
+      12420,
+      15120,
+      16632,
+      22680,
+      25920,
+      27540,
+      35640,
+      37800,
+      45360,
+      68040,
+      90720,
+      113400,
+      142560
+    ],
+    "training_branches": 127,
+    "held_out_branches": 30,
+    "mprc_unseen_accuracy": 1.0,
+    "gd_runs": {
+      "raw3": [
+        [
+          1.0,
+          0.13333334028720856
+        ],
+        [
+          1.0,
+          0.20000000298023224
+        ],
+        [
+          1.0,
+          0.23333333432674408
+        ],
+        [
+          1.0,
+          0.23333333432674408
+        ],
+        [
+          1.0,
+          0.2666666805744171
+        ]
+      ],
+      "adi2": [
+        [
+          0.9763779640197754,
+          0.13333334028720856
+        ],
+        [
+          1.0,
+          0.13333334028720856
+        ],
+        [
+          1.0,
+          0.20000000298023224
+        ],
+        [
+          0.9921259880065918,
+          0.3333333432674408
+        ],
+        [
+          1.0,
+          0.20000000298023224
+        ]
+      ]
+    }
+  },
+  "held_out_traces": [
+    {
+      "triple": [
+        12,
+        10,
+        7
+      ],
+      "ADI": [
+        29,
+        2
+      ],
+      "expected_volume": 840,
+      "recovered_volume": 840,
+      "correct": true
+    },
+    {
+      "triple": [
+        20,
+        12,
+        9
+      ],
+      "ADI": [
+        41,
+        8
+      ],
+      "expected_volume": 2160,
+      "recovered_volume": 2160,
+      "correct": true
+    },
+    {
+      "triple": [
+        36,
+        10,
+        7
+      ],
+      "ADI": [
+        53,
+        26
+      ],
+      "expected_volume": 2520,
+      "recovered_volume": 2520,
+      "correct": true
+    },
+    {
+      "triple": [
+        20,
+        14,
+        11
+      ],
+      "ADI": [
+        45,
+        6
+      ],
+      "expected_volume": 3080,
+      "recovered_volume": 3080,
+      "correct": true
+    },
+    {
+      "triple": [
+        18,
+        15,
+        12
+      ],
+      "ADI": [
+        45,
+        3
+      ],
+      "expected_volume": 3240,
+      "recovered_volume": 3240,
+      "correct": true
+    },
+    {
+      "triple": [
+        21,
+        15,
+        12
+      ],
+      "ADI": [
+        48,
+        6
+      ],
+      "expected_volume": 3780,
+      "recovered_volume": 3780,
+      "correct": true
+    },
+    {
+      "triple": [
+        24,
+        15,
+        12
+      ],
+      "ADI": [
+        51,
+        9
+      ],
+      "expected_volume": 4320,
+      "recovered_volume": 4320,
+      "correct": true
+    },
+    {
+      "triple": [
+        20,
+        18,
+        15
+      ],
+      "ADI": [
+        53,
+        2
+      ],
+      "expected_volume": 5400,
+      "recovered_volume": 5400,
+      "correct": true
+    },
+    {
+      "triple": [
+        40,
+        14,
+        11
+      ],
+      "ADI": [
+        65,
+        26
+      ],
+      "expected_volume": 6160,
+      "recovered_volume": 6160,
+      "correct": true
+    },
+    {
+      "triple": [
+        24,
+        18,
+        15
+      ],
+      "ADI": [
+        57,
+        6
+      ],
+      "expected_volume": 6480,
+      "recovered_volume": 6480,
+      "correct": true
+    },
+    {
+      "triple": [
+        26,
+        18,
+        15
+      ],
+      "ADI": [
+        59,
+        8
+      ],
+      "expected_volume": 7020,
+      "recovered_volume": 7020,
+      "correct": true
+    },
+    {
+      "triple": [
+        28,
+        18,
+        15
+      ],
+      "ADI": [
+        61,
+        10
+      ],
+      "expected_volume": 7560,
+      "recovered_volume": 7560,
+      "correct": true
+    },
+    {
+      "triple": [
+        32,
+        18,
+        15
+      ],
+      "ADI": [
+        65,
+        14
+      ],
+      "expected_volume": 8640,
+      "recovered_volume": 8640,
+      "correct": true
+    },
+    {
+      "triple": [
+        27,
+        20,
+        17
+      ],
+      "ADI": [
+        64,
+        7
+      ],
+      "expected_volume": 9180,
+      "recovered_volume": 9180,
+      "correct": true
+    },
+    {
+      "triple": [
+        36,
+        18,
+        15
+      ],
+      "ADI": [
+        69,
+        18
+      ],
+      "expected_volume": 9720,
+      "recovered_volume": 9720,
+      "correct": true
+    },
+    {
+      "triple": [
+        30,
+        21,
+        18
+      ],
+      "ADI": [
+        69,
+        9
+      ],
+      "expected_volume": 11340,
+      "recovered_volume": 11340,
+      "correct": true
+    },
+    {
+      "triple": [
+        44,
+        18,
+        15
+      ],
+      "ADI": [
+        77,
+        26
+      ],
+      "expected_volume": 11880,
+      "recovered_volume": 11880,
+      "correct": true
+    },
+    {
+      "triple": [
+        27,
+        23,
+        20
+      ],
+      "ADI": [
+        70,
+        4
+      ],
+      "expected_volume": 12420,
+      "recovered_volume": 12420,
+      "correct": true
+    },
+    {
+      "triple": [
+        30,
+        24,
+        21
+      ],
+      "ADI": [
+        75,
+        6
+      ],
+      "expected_volume": 15120,
+      "recovered_volume": 15120,
+      "correct": true
+    },
+    {
+      "triple": [
+        33,
+        24,
+        21
+      ],
+      "ADI": [
+        78,
+        9
+      ],
+      "expected_volume": 16632,
+      "recovered_volume": 16632,
+      "correct": true
+    },
+    {
+      "triple": [
+        35,
+        27,
+        24
+      ],
+      "ADI": [
+        86,
+        8
+      ],
+      "expected_volume": 22680,
+      "recovered_volume": 22680,
+      "correct": true
+    },
+    {
+      "triple": [
+        32,
+        30,
+        27
+      ],
+      "ADI": [
+        89,
+        2
+      ],
+      "expected_volume": 25920,
+      "recovered_volume": 25920,
+      "correct": true
+    },
+    {
+      "triple": [
+        34,
+        30,
+        27
+      ],
+      "ADI": [
+        91,
+        4
+      ],
+      "expected_volume": 27540,
+      "recovered_volume": 27540,
+      "correct": true
+    },
+    {
+      "triple": [
+        36,
+        33,
+        30
+      ],
+      "ADI": [
+        99,
+        3
+      ],
+      "expected_volume": 35640,
+      "recovered_volume": 35640,
+      "correct": true
+    },
+    {
+      "triple": [
+        54,
+        28,
+        25
+      ],
+      "ADI": [
+        107,
+        26
+      ],
+      "expected_volume": 37800,
+      "recovered_volume": 37800,
+      "correct": true
+    },
+    {
+      "triple": [
+        56,
+        30,
+        27
+      ],
+      "ADI": [
+        113,
+        26
+      ],
+      "expected_volume": 45360,
+      "recovered_volume": 45360,
+      "correct": true
+    },
+    {
+      "triple": [
+        84,
+        30,
+        27
+      ],
+      "ADI": [
+        141,
+        54
+      ],
+      "expected_volume": 68040,
+      "recovered_volume": 68040,
+      "correct": true
+    },
+    {
+      "triple": [
+        48,
+        45,
+        42
+      ],
+      "ADI": [
+        135,
+        3
+      ],
+      "expected_volume": 90720,
+      "recovered_volume": 90720,
+      "correct": true
+    },
+    {
+      "triple": [
+        60,
+        45,
+        42
+      ],
+      "ADI": [
+        147,
+        15
+      ],
+      "expected_volume": 113400,
+      "recovered_volume": 113400,
+      "correct": true
+    },
+    {
+      "triple": [
+        66,
+        48,
+        45
+      ],
+      "ADI": [
+        159,
+        18
+      ],
+      "expected_volume": 142560,
+      "recovered_volume": 142560,
+      "correct": true
+    }
+  ]
+}
