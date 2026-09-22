@@ -1,0 +1,104 @@
+{
+  "tau": 256,
+  "weight_order": 2,
+  "weight_relation_space": 65536,
+  "bias_order": 1,
+  "bias_state_space": 256,
+  "relations_per_bias_state": [
+    256
+  ],
+  "sum_state_space": 256,
+  "combined_Lambda_delta_states": 32768,
+  "combined_fiber_histogram": {
+    "2": 32768
+  },
+  "collision_law_failures": 0,
+  "extended_Lambda_delta_plus_1bit_states": 65536,
+  "extended_collisions": 0,
+  "ring_identity_failures": 0,
+  "product_ambiguity_histogram_from_4xy_mod256": {
+    "4": 64
+  },
+  "examples": {
+    "36,25": {
+      "pair": [
+        36,
+        25
+      ],
+      "W_order2_state": [
+        36,
+        25
+      ],
+      "Lambda_mod256": 61,
+      "B_delta_mod256": 11,
+      "companion_bit": 0,
+      "collision_partner": [
+        164,
+        153
+      ],
+      "partner_same_Lambda_delta": true,
+      "core_identity_mod256": 16,
+      "four_xy_mod256": 16
+    },
+    "30,30": {
+      "pair": [
+        30,
+        30
+      ],
+      "W_order2_state": [
+        30,
+        30
+      ],
+      "Lambda_mod256": 60,
+      "B_delta_mod256": 0,
+      "companion_bit": 0,
+      "collision_partner": [
+        158,
+        158
+      ],
+      "partner_same_Lambda_delta": true,
+      "core_identity_mod256": 16,
+      "four_xy_mod256": 16
+    },
+    "164,153": {
+      "pair": [
+        164,
+        153
+      ],
+      "W_order2_state": [
+        164,
+        153
+      ],
+      "Lambda_mod256": 61,
+      "B_delta_mod256": 11,
+      "companion_bit": 1,
+      "collision_partner": [
+        36,
+        25
+      ],
+      "partner_same_Lambda_delta": true,
+      "core_identity_mod256": 16,
+      "four_xy_mod256": 16
+    },
+    "158,158": {
+      "pair": [
+        158,
+        158
+      ],
+      "W_order2_state": [
+        158,
+        158
+      ],
+      "Lambda_mod256": 60,
+      "B_delta_mod256": 0,
+      "companion_bit": 1,
+      "collision_partner": [
+        30,
+        30
+      ],
+      "partner_same_Lambda_delta": true,
+      "core_identity_mod256": 16,
+      "four_xy_mod256": 16
+    }
+  }
+}
