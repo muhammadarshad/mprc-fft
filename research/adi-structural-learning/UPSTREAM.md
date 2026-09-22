@@ -6,7 +6,7 @@ https://github.com/muhammadarshad/mprc-learn-train
 
 Pinned research snapshot:
 
-`b02cf411719721b5e737a9601f253f7db080d0a8`
+`8e9a1c3648f3666521400ce14dca724d47576a0e`
 
 This directory in `mprc-fft` is a downstream integration/vendor location only. New learning/training experiments, datasets, reproducibility scripts, and result provenance belong upstream first.
 
