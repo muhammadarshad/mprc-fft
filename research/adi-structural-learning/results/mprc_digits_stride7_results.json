@@ -1,0 +1,77 @@
+{
+  "hv": {
+    "relations_per_image": 112,
+    "train_seconds": 0.8178774959997099,
+    "b": {
+      "accuracy_all": 0.7944444444444444,
+      "accuracy_covered": 0.7973977695167286,
+      "coverage": 0.9962962962962963,
+      "predict_seconds": 0.161857673000668
+    },
+    "w_b": {
+      "accuracy_all": 0.8037037037037037,
+      "accuracy_covered": 0.8081936685288641,
+      "coverage": 0.9944444444444445,
+      "predict_seconds": 0.1903575370006365
+    },
+    "all": {
+      "accuracy_all": 0.8277777777777777,
+      "accuracy_covered": 0.8293135435992579,
+      "coverage": 0.9981481481481481,
+      "predict_seconds": 0.2786023380003826
+    },
+    "W_cells": 120389,
+    "B_cells": 20842,
+    "S_cells": 23269
+  },
+  "stride7": {
+    "relations_per_image": 64,
+    "train_seconds": 0.26138009399983275,
+    "b": {
+      "accuracy_all": 0.7407407407407407,
+      "accuracy_covered": 0.7561436672967864,
+      "coverage": 0.9796296296296296,
+      "predict_seconds": 0.09299712400024873
+    },
+    "w_b": {
+      "accuracy_all": 0.7592592592592593,
+      "accuracy_covered": 0.7692307692307693,
+      "coverage": 0.987037037037037,
+      "predict_seconds": 0.10306272700017871
+    },
+    "all": {
+      "accuracy_all": 0.8,
+      "accuracy_covered": 0.8074766355140187,
+      "coverage": 0.9907407407407407,
+      "predict_seconds": 0.16418486000020494
+    },
+    "W_cells": 69521,
+    "B_cells": 12393,
+    "S_cells": 12648
+  },
+  "hv_plus_stride7": {
+    "relations_per_image": 176,
+    "train_seconds": 1.0547683069999039,
+    "b": {
+      "accuracy_all": 0.8296296296296296,
+      "accuracy_covered": 0.8327137546468402,
+      "coverage": 0.9962962962962963,
+      "predict_seconds": 0.27240625100057514
+    },
+    "w_b": {
+      "accuracy_all": 0.8388888888888889,
+      "accuracy_covered": 0.8404452690166976,
+      "coverage": 0.9981481481481481,
+      "predict_seconds": 0.3184233829997538
+    },
+    "all": {
+      "accuracy_all": 0.8388888888888889,
+      "accuracy_covered": 0.8388888888888889,
+      "coverage": 1.0,
+      "predict_seconds": 0.4837266919994363
+    },
+    "W_cells": 189910,
+    "B_cells": 33235,
+    "S_cells": 35917
+  }
+}
